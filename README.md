@@ -2,6 +2,8 @@
 
 A prototype of some game engine tests with webgl2. This entire project is replaced with less... questionable coding. XD
 
+Play the prototype engine here: [https://cmayen.github.io/game-js-webgl2-protomadness2606/public/]
+
 ---
 
 Inputs:
