@@ -109,6 +109,18 @@ g.hud = {
         if( navigator.userAgentData?.mobile ) {
             g.renderer.map.nebula.enabled = false;
         }
+        g.css.push(`
+            #neb-toggle-wrap {
+                position: absolute;
+                top: 36px;
+                right: 100px;
+                font-size: 12px;
+                font-family: monospace;
+                color: #aaa;
+                cursor: pointer;
+                user-select: none;
+            }
+        `);
         const nebToggleWrap = document.createElement('label');
         nebToggleWrap.id = 'neb-toggle-wrap';
         const nebToggleCB = document.createElement('input');
