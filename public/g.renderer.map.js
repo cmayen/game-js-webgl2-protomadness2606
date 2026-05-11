@@ -1,0 +1,2 @@
+
+g.renderer.map = {};
