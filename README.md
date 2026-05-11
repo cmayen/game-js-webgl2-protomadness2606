@@ -22,5 +22,5 @@ Controllers:
 Features:
 - Infinite 3D grid system.
 - Procedural driven by seed
-- 99.9% javascript
+- 98% javascript
 - Star picker/targeting & auto-pilot flight
