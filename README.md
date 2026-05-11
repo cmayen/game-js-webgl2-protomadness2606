@@ -2,9 +2,11 @@
 
 A prototype of some game engine tests with webgl2. This entire project is replaced with less... questionable coding. XD
 
-Play the prototype engine here: [https://cmayen.github.io/game-js-webgl2-protomadness2606/public/]
+Play the prototypes using the links below: 
 
 ---
+
+[https://cmayen.github.io/game-js-webgl2-protomadness2606/public/]
 
 Inputs:
 - Mouse/Keyboard
@@ -24,3 +26,10 @@ Features:
 - Procedural driven by seed
 - 98% javascript
 - Star picker/targeting & auto-pilot flight
+
+---
+
+Other stuff:
+
+Hexagon Dungeon
+[https://cmayen.github.io/game-js-webgl2-protomadness2606/hex-dungeon/]
