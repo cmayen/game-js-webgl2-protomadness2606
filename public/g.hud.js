@@ -104,6 +104,23 @@ g.hud = {
         document.body.appendChild(lockWrap);
         g.hud.lockYEl = lockCb;
 
+        // enable nebula bg effect
+        // disbale if touch input by default.
+        if( navigator.userAgentData?.mobile ) {
+            g.renderer.map.nebula.enabled = false;
+        }
+        const nebToggleWrap = document.createElement('label');
+        nebToggleWrap.id = 'neb-toggle-wrap';
+        const nebToggleCB = document.createElement('input');
+        nebToggleCB.type = 'checkbox';
+        nebToggleCB.checked = g.renderer.map.nebula.enabled;
+        nebToggleCB.addEventListener('change', function(){
+             g.renderer.map.nebula.enabled = nebToggleCB.checked;
+        });
+        nebToggleWrap.appendChild(nebToggleCB);
+        nebToggleWrap.appendChild(document.createTextNode(' NebulaBG'));
+        document.body.appendChild(nebToggleWrap);
+
         // Autopilot button
         const flyBtn = document.createElement('button');
         flyBtn.id = 'fly-selected-btn';
